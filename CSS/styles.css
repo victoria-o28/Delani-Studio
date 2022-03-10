@@ -1,0 +1,19 @@
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.welcome{
+    text-align: center;
+    position: relative;
+
+}
+
