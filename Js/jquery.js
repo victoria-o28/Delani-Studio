@@ -13,3 +13,17 @@ $("#pmgmnt").click(function () {
     $('#pmgmnt').html("<b>PRODUCT MANAGEMENT<b>  <br><br><small>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.</small>")
 
 });
+
+
+$(".portfolio").hover(
+    function() {
+    $(this).stop().animate({"opacity": "0.5"});
+  }, function () {
+      $(".project").show(this);
+  },
+  function () {
+    $(".project").hide(this);
+},
+  function() {
+    $(this).stop().animate({"opacity": "1"});
+  });
