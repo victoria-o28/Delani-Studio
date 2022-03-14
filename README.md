@@ -16,7 +16,7 @@
 [![Screenshot-from-2022-03-14-06-02-01.png](https://i.postimg.cc/DfRFcTH2/Screenshot-from-2022-03-14-06-02-01.png)](https://postimg.cc/V593Y3zT)
 
 ## Live Link
-<p>Here is the live website URL:  </p> 
+<p>Here is the live website URL: https://victoria-o28.github.io/Delani-Studio/ </p> 
 
 ## Installation Requirement
 Open Terminal Ctrl+Alt+T
