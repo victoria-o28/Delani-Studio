@@ -1,15 +1,88 @@
 .container {
     position: relative;
     text-align: center;
+    color: black;
+}
+
+.backgroundimg {
+    background-image: url('/assets/backgrounds/h_img.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.centered {
     color: white;
-  }
-  .centered {
-    position: absolute;
-    top: 57%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-.about{
+    text-align: center;
+    display: grid;
+    place-items: center;
+    padding-top: 12%;
+
+}
+
+.about {
     position: relative;
     color: black;
+}
+
+.middle {
+    color: white;
+    text-align: center;
+    margin: 10% auto;
+
+}
+
+.services {
+    background-image: url("../assets/backgrounds/s_image.jpg");
+    height: 40vh;
+}
+
+.DDP {
+    color: black;
+
+}
+
+.portfolio {
+    color: black;
+}
+
+.bg-img {
+
+    background-image: url(/assets/backgrounds/c_image.jpg);
+
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.project {
+    display: none;
+}
+
+
+div.click-to-top span {
+    display: none;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #333;
+    color: #fff;
+}
+
+div.click-to-top:hover span {
+    display: block;
+}
+
+#input {
+    background: none;
+}
+
+::placeholder {
+    color: white;
 }
