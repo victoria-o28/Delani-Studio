@@ -79,8 +79,9 @@ div.click-to-top:hover span {
     display: block;
 }
 
-#input {
+.input {
     background: none;
+    margin: auto;
 }
 
 ::placeholder {

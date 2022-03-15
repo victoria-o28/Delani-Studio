@@ -29,17 +29,24 @@ $(".portfolio").hover(
     $(".project").show(this);
   }, );
 
-function isEmail(email) {
-  var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-  return regex.test(email);
-}
-$("#submitButton").click(function () {
-   var errorMessage = ""
+document.getElementById("submitButton").addEventListener("click", contactSubmit)
+function contactSubmit() {
+  var name = document.forms["contact-form"]["NAME"].value;
+  var email = document.forms["contact-form"]["EMAIL"].value;
+  var text = document.forms["contact-form"]["MESSAGE"].value;
 
-   if(isEmail($("#email").val()) == false){
-     errorMessage += "This field is missing!"
-   }
-   alert(errorMessage);
+  if (name === "") {
+    alert("Please fill out the form before submit, Thank you.");
 
-});
+  } 
+  else if (email === "") {
+    alert(" Thankyou for reaching out. We'll get back to you shortly!");
+  } 
+  else if (text === "") {
+    alert("Please fill out the form before submit, Thank you.");
 
+  } 
+  else {
+    alert(name + text + ", Thankyou for reaching out. We'll get back to you shortly!");
+  }
+};

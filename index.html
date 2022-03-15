@@ -14,6 +14,8 @@
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
     <link href="CSS/styles.css" rel="stylesheet" type="text/css" media="all">
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css" rel="stylesheet" type="text/css">
+
     <title>Delani Studio</title>
 
 </head>
@@ -177,115 +179,72 @@
 
 
     <div class="bg-img footer">
-        <form class="container">
+        <div class="container">
             <h2>CONTACT US</h2>
-            <div class="row">
-                <div class="column">
-                    <div class="row">
-                        <form role="form" id="contact-form" class="contact-form bv-form" novalidate="novalidate">
-                            <button type="submit" class="bv-hidden-submit"
-                                style="display: none; width: 0px; height: 0px;"></button>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group has-feedback">
-                                        <input id="input" type="text" class="form-control" id="fname" name="Name"
-                                            autocomplete="off" id="Name" placeholder="Name" data-bv-field="Name"><i
-                                            class="form-control-feedback bv-no-label" data-bv-icon-for="Name"
-                                            style="display: none;"></i>
-                                        <small class="help-block" data-bv-validator="notEmpty" data-bv-for="Name"
-                                            data-bv-result="NOT_VALIDATED" style="display: none;">The Name is
-                                            required
-                                            and cannot be empty</small></div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group has-feedback">
-                                        <input id="input" type="email" class="form-control" name="email"
-                                            autocomplete="off" id="email" placeholder="E-mail" data-bv-field="email"><i
-                                            class="form-control-feedback bv-no-label" data-bv-icon-for="email"
-                                            style="display: none;"></i>
-                                        <small class="help-block" data-bv-validator="notEmpty" data-bv-for="email"
-                                            data-bv-result="NOT_VALIDATED" style="display: none;">The email address
-                                            is
-                                            required</small><small class="help-block" data-bv-validator="emailAddress"
-                                            data-bv-for="email" data-bv-result="NOT_VALIDATED"
-                                            style="display: none;">The
-                                            email address
-                                            is not valid</small><small class="help-block"
-                                            data-bv-validator="emailAddress" data-bv-for="email"
-                                            data-bv-result="NOT_VALIDATED" style="display: none;">The
-                                            email address
-                                            is not valid</small></div>
-                                </div>
 
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group has-feedback">
-                                        <br><br>
-                                        <textarea id="input" class="form-control textarea" rows="3" name="Message"
-                                            id="Message" placeholder="Your message here..."
-                                            data-bv-field="Message"></textarea><i
-                                            class="form-control-feedback bv-no-label" data-bv-icon-for="Message"
-                                            style="display: none;"></i>
-                                        <small class="help-block" data-bv-validator="notEmpty" data-bv-for="Message"
-                                            data-bv-result="NOT_VALIDATED" style="display: none;">The Message is
-                                            required and cannot be empty</small></div>
-                                </div>
-                            </div>
+            <form name="contact-form" action="https://gmail.us14.list-manage.com/subscribe/post?u=ae678ebfcca6f7b6f71755a26&amp;id=bbce2b153b" 
+            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" 
+            target="_blank" novalidate>
+
+                <input type="text" class="input w-25" name="NAME" id="Name" placeholder="Name">
 
 
-                    </div>
+                <input type="email" class="input w-25" name="EMAIL" id="email" placeholder="E-mail">
+
+                <div class="form-group has-feedback mt-5">
+                    <textarea class="form-control textarea input w-50" rows="3" name="MESSAGE" id="Message"
+                        placeholder="Your message here...">
+                    </textarea>
                 </div>
-            </div>
-            <button type="submit" id="submitButton" class="btn btn-primary">Submit</button>
+                <button type="submit" id="submitButton" class="btn btn-primary">Submit</button>
+            </form>
 
-
-        </form>
+        </div>
 
     </div>
 
-    <!-- Footer -->
+  
 
     <div class="text-center p-3">
         <footer class="bg-white text-center text-white">
-            <!-- Grid container -->
+            
             <div class="container p-4 pb-0">
-                <!-- Section: Social media -->
+               
                 <section class="mb-4">
-                    <!-- Twitter -->
+                   
                     <a class="Twitter" href="#!"><img src="./assets/social_icons/twitter.png" alt=""></a>
 
-                    <!-- Dribble -->
+                   
                     <a class="dribble" href="#!"><img src="./assets/social_icons/dribble.png" alt=""></a>
 
-                    <!-- facebook -->
+                   
                     <a class="facebook" href="#!"><img src="./assets/social_icons/facebook.png" alt=""></a>
 
-                    <!-- google -->
+                   
                     <a class="g_plus" href="#!"><img src="./assets/social_icons/g_plus.png" alt=""></a>
 
-                    <!-- skype -->
+                   
                     <a class="skype" href="#!"><img src="./assets/social_icons/skype.png" alt=""></a>
 
-                    <!-- stumble upon -->
+                    
                     <a class="stumble_upon" href="#!"><img src="./assets/social_icons/stumble_upon.png" alt=""></a>
 
-                    <!-- behance -->
+                    
                     <a class="behance" href="#!"><img src="./assets/social_icons/behance.png" alt=""></a>
 
-                    <!-- pinterest -->
+                    
                     <a class="pinterest" href="#!"><img src="./assets/social_icons/pinterest.png" alt=""></a>
 
-                    <!-- flickr -->
+                   
                     <a class="flickr" href="#!"><img src="./assets/social_icons/flickr.png" alt=""></a>
 
                 </section>
-                <!-- Jquery -->
+              
 
                 <script src="/Js/jquery.js"></script>
             </div>
 
-            <!-- Copyright -->
+            
             <div class="text-center p-3" style="background-color: rgba(252, 252, 252, 0.2); color: black;">
                 DELANI STUDIO <br> © 2019
 
