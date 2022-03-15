@@ -40,13 +40,13 @@ function contactSubmit() {
 
   } 
   else if (email === "") {
-    alert(" Thankyou for reaching out. We'll get back to you shortly!");
+    alert(" Please fill out the form before submit, Thank you.");
   } 
   else if (text === "") {
     alert("Please fill out the form before submit, Thank you.");
 
   } 
   else {
-    alert(name + text + ", Thankyou for reaching out. We'll get back to you shortly!");
+    alert(name + ", Thankyou for reaching out. We'll get back to you shortly!");
   }
 };
